@@ -5,10 +5,8 @@ export default function ContactPage() {
   return (
     <main className="w-full h-screen flex flex-col items-center justify-between py-12">
       <Faq />
-      <form
-        className="w-full md:w-1/3 max-h-1/3 flex flex-col justify-between items-center p-3 mt-10"
-        action="/"
-      >
+      {/* Should be a form but I dont want to send any data */}
+      <div className="w-full md:w-1/3 max-h-1/3 flex flex-col justify-between items-center p-3 mt-10">
         <h3 className="text-lg font-semibold">Do you still have questions?</h3>
         <div className="w-full flex flex-col">
           <label htmlFor="name" className="text-sm self-start">
@@ -47,26 +45,11 @@ export default function ContactPage() {
             maxLength={500}
           ></textarea>
         </div>
-        <input
-          type="submit"
-          value="Send"
-          className="py-1 px-5 border border-gray-300 shadow-sm rounded-sm mt-4 cursor-pointer active:scale-95"
-        />
-      </form>
-      <div className="flex justify-between w-48">
-        <Link to={"https://www.instagram.com/adoreclo_/"} target="_blank">
-          <img
-            src="./src/assets/instagram_logo.png"
-            alt="Instagram logo"
-            className="w-10"
-          />
-        </Link>
-        <Link to={"https://www.tiktok.com/@adoreclo_"} target="_blank">
-          <img
-            src="./src/assets/tiktok_logo.png"
-            alt="Tiktok logo"
-            className="w-10"
-          />
+        <Link
+          to={"https://www.adoreclo.com/"}
+          className="px-4 py-1 border rounded-sm mt-5 shadow-sm active:scale-95"
+        >
+          Send
         </Link>
       </div>
     </main>

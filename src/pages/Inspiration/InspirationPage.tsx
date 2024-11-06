@@ -6,7 +6,6 @@ import inspirationModel5 from "../../assets/black-sweatpants.png";
 import inspirationModel6 from "../../assets/production-white-t-shirt.jpg";
 import inspirationModel7 from "../../assets/adoreclo_video_frame.jpg";
 import inspirationModel8 from "../../assets/black-bag-preview1.png";
-import instagramIcon from "../../assets/instagram_logo.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -122,13 +121,13 @@ export default function InspirationPage() {
         className="w-1/2 mt-2 self-start rounded-sm shadow-xl"
       />
 
-      <div className="w-full border-t border-gray-300 h-40 mt-10 flex flex-col items-center justify-between py-4">
+      <div className="w-full border-t border-gray-300 h-40 mt-10 flex flex-col items-center justify-center py-4">
         <h3 className="text-sm md:text-lg">
           Do you also want be a part of the inspiration?
         </h3>
         <p className="font-medium">Follow and tag us on Instagram</p>
         <Link to={"https://www.instagram.com/adoreclo_/"} target="_blank">
-          <img src={instagramIcon} alt="Instagram logo" className="w-10" />
+          <p className="underline">Instagram</p>
         </Link>
       </div>
       {/* Scroll to top button */}

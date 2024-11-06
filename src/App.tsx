@@ -1,5 +1,5 @@
 import Header from "./components/header/Header";
-import { Outlet, ScrollRestoration } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Menu from "./components/menu/Menu";
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
         <Outlet />
       </div>
       <Menu />
-      <ScrollRestoration />
     </>
   );
 }

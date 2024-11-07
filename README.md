@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Adoréclo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a front-end development practice centered on enhancing my skills in web design and visual aesthetics. The primary goal is to create a visually appealing design, tailored to evoke the style and identity of a new clothing brand.
 
-Currently, two official plugins are available:
+Inspired by images and videos provided from Adore Clothing, I used these materials as a reference to shape my own interpretation of a fresh, modern clothing line's digital presence. While the design does not mimic any specific e-commerce structure—certain foundational elements like product links in the header are intentionally not included—this project focuses purely on creating an engaging, brand-inspired aesthetic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started
 
-## Expanding the ESLint configuration
+### Installing
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone this repository
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/ItsEricFrisk/adoreclo.git
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. Navigate to the project directory
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   ```bash
+   cd <location>/adoreclo
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+3. Install dependencies  
+   Make sure you have [Node.js](https://nodejs.org/) installed. Then, install the required dependencies by running:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   ```bash
+   npm install
+   ```
+
+4. Run the application  
+   Start the application locally using:
+   ```bash
+   npm run dev
+   ```
+   This will run the app at `http://localhost:3000`. Open the URL in your browser to view the design.

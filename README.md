@@ -2,7 +2,7 @@
 
 This project is a front-end development practice centered on enhancing my skills in web design and visual aesthetics. The primary goal is to create a visually appealing design, tailored to evoke the style and identity of a new clothing brand.
 
-Inspired by images and videos provided from Adore Clothing, I used these materials as a reference to shape my own interpretation of a fresh, modern clothing line's digital presence. While the design does not mimic any specific e-commerce structure—certain foundational elements like product links in the header are intentionally not included—this project focuses purely on creating an engaging, brand-inspired aesthetic.
+Inspired by images and videos provided from [Adoréclo](https://www.adoreclo.com/), I used these materials as a reference to shape my own interpretation of a fresh, modern clothing line's digital presence. While the design does not mimic any specific e-commerce structure—certain foundational elements like product links in the header are intentionally not included—this project focuses purely on creating an engaging, brand-inspired aesthetic.
 
 ## Getting started
 
